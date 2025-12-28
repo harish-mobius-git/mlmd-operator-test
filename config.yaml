@@ -6,3 +6,7 @@ options:
     type: string
     default: "8080"
     description: GRPC port
+
+  mlmd_grpc_server_image:
+    type: string
+    description: Docker image for MLMD gRPC server
